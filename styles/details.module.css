@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+}
+.img {
+  background-color: goldenrod;
+  padding: 20px;
+  border-radius: 50%;
+}
+.text {
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 49px;
+  background-color: goldenrod;
+  padding: 10px;
+}
+.content {
+  font-size: 120%;
+  font-weight: bold;
+  gap: 1rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
