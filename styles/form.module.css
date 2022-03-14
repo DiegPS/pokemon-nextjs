@@ -1,7 +1,7 @@
 .form {
   color: white;
   display: flex;
-  padding: 3rem;
+  padding: 1rem;
   flex-direction: column;
 }
 .title {
@@ -10,4 +10,27 @@
   padding-top: 2rem;
   font-size: 150%;
   color: goldenrod;
+}
+.cat {
+  margin: 1rem;
+  font-size: 110%;
+}
+.input {
+  height: 2rem;
+  background-color: #1e2130;
+  color: goldenrod;
+  font-size: 120%;
+}
+.button {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 150%;
+  color: goldenrod;
+  border-radius: 49px;
+  border: 0;
+  background-color: #181a26;
+}
+.button:hover {
+  background-color: #1e2130;
+  cursor: pointer;
 }

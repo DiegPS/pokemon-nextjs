@@ -5,21 +5,21 @@ export default function Form() {
     <>
       <div className={styles.title}>Create your own Pokémon</div>
       <form className={styles.form}>
-        <label>Pokémon name: </label>
-        <input type="text" placeholder="Charizard" />
-        <label>Hp: </label>
-        <input type="text" placeholder="77" />
-        <label>Attack: </label>
-        <input type="text" placeholder="77" />
-        <label>Defense: </label>
-        <input type="text" placeholder="77" />
-        <label>Special-Attack: </label>
-        <input type="text" placeholder="77" />
-        <label>Special-Defense: </label>
-        <input type="text" placeholder="77" />
-        <label>Speed: </label>
-        <input type="text" placeholder="77" />
-        <button>Create Pokémon</button>
+        <label className={styles.cat}>Name: </label>
+        <input type="text" placeholder="Charizard" className={styles.input} />
+        <label className={styles.cat}>Hp: </label>
+        <input type="text" placeholder="77" className={styles.input} />
+        <label className={styles.cat}>Attack: </label>
+        <input type="text" placeholder="77" className={styles.input} />
+        <label className={styles.cat}>Defense: </label>
+        <input type="text" placeholder="77" className={styles.input} />
+        <label className={styles.cat}>Special-Attack: </label>
+        <input type="text" placeholder="77" className={styles.input} />
+        <label className={styles.cat}>Special-Defense: </label>
+        <input type="text" placeholder="77" className={styles.input} />
+        <label className={styles.cat}>Speed: </label>
+        <input type="text" placeholder="77" className={styles.input} />
+        <button className={styles.button}>Create Pokémon</button>
       </form>
     </>
   );
