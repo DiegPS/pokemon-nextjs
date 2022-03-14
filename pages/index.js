@@ -6,6 +6,13 @@ import styles from "../styles/Home.module.css";
 export default function Home({ pokemons }) {
   return (
     <>
+      <Head>
+        <title>Pokémon API</title>
+      </Head>
+      <nav className={styles.nav}>
+        <div>Filter: </div>
+        <div>Order: </div>
+      </nav>
       <div>
         <ul className={styles.grid}>
           {pokemons.map((pokemon, i) => {

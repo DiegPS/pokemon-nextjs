@@ -17,37 +17,46 @@ a {
 }
 .bug {
   background: #aedf78;
+  filter: drop-shadow(0 0 0.75rem #aedf78);
 }
 
 .water {
   background: #43ccff;
+  filter: drop-shadow(0 0 0.75rem #43ccff);
 }
 
 .grass {
   background: #00ca91;
+  filter: drop-shadow(0 0 0.75rem #00ca91);
 }
 
 .fire {
   background: #e95c4d;
+  filter: drop-shadow(0 0 0.75rem #e95c4d);
 }
 
 .normal {
   background: #a5a5a5;
+  filter: drop-shadow(0 0 0.75rem #a5a5a5);
 }
 
 .poison {
   background: #611380;
+  filter: drop-shadow(0 0 0.75rem #611380);
 }
 
 .electric {
   background: #f9be00;
+  filter: drop-shadow(0 0 0.75rem #f9be00);
 }
 .ground {
   background: #bfac21;
+  filter: drop-shadow(0 0 0.75rem #bfac21);
 }
 
 .fairy {
   background: #f87ea7;
+  filter: drop-shadow(0 0 0.75rem #f87ea7);
 }
 
 .fighting {

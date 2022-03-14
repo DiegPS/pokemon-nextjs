@@ -1,0 +1,13 @@
+.form {
+  color: white;
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  font-size: 150%;
+  color: goldenrod;
+}
